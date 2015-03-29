@@ -14,7 +14,7 @@ getToken <- function(app_name=NULL, key=NULL, secret=NULL){
 getFitnessActivityFeed <- function(token){
   accept <- "application/vnd.com.runkeeper.FitnessActivityFeed+json"
   url <- "https://api.runkeeper.com/fitnessActivities/"
-  header <- add_headers(
+  header <- httr::add_headers(
     Host = "api.runkeeper.com",
     Authorization = sprintf("Bearer %s", token$credentials$access_token),
     Accept = accept
@@ -27,7 +27,7 @@ getFitnessActivityFeed <- function(token){
 getFitnessActivity <- function(num, token){
   accept <- "application/vnd.com.runkeeper.FitnessActivity+json"
   url <- sprintf("https://api.runkeeper.com/fitnessActivities/%s", num)
-  header <- add_headers(
+  header <- httr::add_headers(
     Host = "api.runkeeper.com",
     Authorization = sprintf("Bearer %s", token$credentials$access_token),
     Accept = accept
