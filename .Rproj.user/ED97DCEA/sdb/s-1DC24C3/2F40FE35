@@ -1,0 +1,16 @@
+{
+    "contents" : "Package: runkeeper\nType: Package\nTitle: access Runkeeper API\nVersion: 0.1\nDate: 2015-03-29\nAuthor: dichika\nDescription: access Runkeeper API\nLicense: MIT\nImports: httr,jsonlite",
+    "created" : 1427615176322.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3039124953",
+    "id" : "2F40FE35",
+    "lastKnownWriteTime" : 1427615494,
+    "path" : "~/runkeeper/DESCRIPTION",
+    "project_path" : "DESCRIPTION",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "dcf"
+}

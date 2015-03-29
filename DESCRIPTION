@@ -1,0 +1,9 @@
+Package: runkeeper
+Type: Package
+Title: access Runkeeper API
+Version: 0.1
+Date: 2015-03-29
+Author: dichika
+Description: access Runkeeper API
+License: MIT
+Imports: httr,jsonlite
